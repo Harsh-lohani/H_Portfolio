@@ -1,0 +1,145 @@
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #343a40;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+nav {
+    background-color: #6c757d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#about {
+    background-color: #4b4b4b; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+#about h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    margin-bottom: 10px; 
+    line-height: 1.6; 
+}
+
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1.display-4 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 30px 0; 
+    font-size: 1.8rem; 
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px; 
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.accordion-item {
+    background-color: #343a40;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item:hover {
+    transform: scale(1.02);
+}
+
+.accordion-header button {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.accordion-body {
+    padding: 15px;
+}
+
+.accordion-body a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+
+th {
+    background-color: #6c757d;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
